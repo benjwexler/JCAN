@@ -310,7 +310,7 @@ body {
 
 @media only screen and (max-width: 360px) { 
     #logoText {
-        font-size: 8px;
+        font-size: 9px;
     } 
     #leftContainer {
         width: 97%;
@@ -319,6 +319,16 @@ body {
     #rightContainer {
         width: 97%;
     
+    }
+
+    .navbar {
+        padding-left: 3px !important;
+    }
+
+    #logo {
+        height: 75px;
+        width: 75px;
+      
     }
 }
 
