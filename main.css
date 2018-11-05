@@ -112,6 +112,7 @@ body {
     /* margin-top: 70px; */
     background: rgba(218, 218, 163, 0.13);
     background: rgba(218, 218, 163, 0.253);
+    /* background: rgba(218, 218, 163, 0.37); */
     /* background: white; */
     
     /* background: rgba(218, 218, 163, 0.205); */
@@ -196,7 +197,13 @@ body {
 
   #list {
       text-align: start;
-      font-size: 18px;
+      font-size: 16px;
+  }
+
+  @media only screen and (max-width: 1500px) {
+    #list {
+        font-size: 16px;
+    }
   }
   #aboutUsText {
     padding: 30px 20px;
@@ -243,10 +250,13 @@ body {
     #leftContainer {
         width: 90%;
         margin: auto;
+    
     }
     #rightContainer {
         width: 100%;
         padding-right: 0px;
+        width: 90%;
+        margin: auto;
  
             
         }
@@ -266,7 +276,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 823px) and (max-width: 411px) {
+@media only screen and (max-width: 823px) and (max-width: 451px) {
     #logo {
         height: 80px;
         width: 80px;
@@ -275,20 +285,40 @@ body {
     }
 
     #wrapperLeft{
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     #mainContainer {
    
-        border: 1px solid black;
+        /* border: 1px solid black; */
         
     }
     #leftContainer {
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
     #logoText {
         font-size: 11px;
+    }
+    #aboutUsText {
+        font-size: 16px;
+    }
+    #list {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) { 
+    #logoText {
+        font-size: 8px;
+    } 
+    #leftContainer {
+        width: 97%;
+   
+    }
+    #rightContainer {
+        width: 97%;
+    
     }
 }
 
