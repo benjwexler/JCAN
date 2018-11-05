@@ -8,7 +8,7 @@ body {
     background: hsla(60, 67%, 36%, 0.486);
     background: rgb(0, 0, 0); */
     background: linear-gradient(rgba(255, 255, 255, 0.356), white), url('/Users/bwexler/Desktop/WDF/jcanBootstrap/aerial-architecture-blue-sky-466685.jpg');
-    background: linear-gradient(rgba(255, 255, 255, 0.527), white), url('/Users/bwexler/Desktop/WDF/jcanBootstrap/aerial-architecture-blue-sky-466685.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.527), white), url('aerial-architecture-blue-sky-466685.jpg');
 }
 
 #logo {
